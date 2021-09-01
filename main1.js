@@ -55,7 +55,7 @@ document.body.appendChild(img);
 console.log(img);
 
 let atributosImg = {
-    src : "https://www.elcarrocolombiano.com/wp-content/uploads/2020/08/20200708-KIA-SONET-PORTADA-750x460.jpg",
+    src : "https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Kia-Picanto_2017-C01.jpg?itok=GVnWtEFB",
     alt : "Imagen de un automovil nuevo modelo de Kia"};
 let img2 = document.createElement('IMG');
 var {alt, ...atributosImgActualizada} = atributosImg;
