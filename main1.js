@@ -73,7 +73,7 @@ addEventListener("load", ()=>{
     let imgSeleccionar = document.getElementsByTagName("img");
 })
 
-function Imagen1() {
+function Imagen1() { 
     var x = document.createElement("IMG");
     x.setAttribute("src", "./logo_nuevo.jpg");
   
