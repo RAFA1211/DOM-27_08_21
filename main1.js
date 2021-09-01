@@ -55,9 +55,9 @@ document.body.appendChild(img);
 console.log(img);
 
 let atributosImg = {
-    src : "./logo.jpg",
-    alt : "Imagen de un astronauta en la luna tomando una cerveza"};
-let img = document.createElement('IMG');
+    src : "https://www.elcarrocolombiano.com/wp-content/uploads/2020/08/20200708-KIA-SONET-PORTADA-750x460.jpg",
+    alt : "Imagen de un automovil nuevo modelo de Kia"};
+let img2 = document.createElement('IMG');
 var {alt, ...atributosImgActualizada} = atributosImg;
 Object.assign(img, atributosImgActualizada);
 
@@ -65,15 +65,38 @@ document.body.appendChild(img);
 console.log(img);
 
 //Seleccionar solo una imagen o etiqueta 
-let imgSeleccionar = document.getElementsByTagName("img");
+let imgSeleccionar2 = document.getElementsByTagName("img");
 
 
 //Seleccionar varias imagenes o etiquetas 
-let imgSeleccionar = document.getElementsByTagNameNS("img");
+addEventListener("load", ()=>{ 
+    let imgSeleccionar = document.getElementsByTagName("img");
+})
 
-// var atributosImg = {
+function Imagen1() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "./logo_nuevo.jpg");
+  
+    document.body.appendChild(x);
+  }
+
+
+
+
+
+
+
+
+
+// // let img4 = document.createElement ("IMG");
+// // img.src ="./";
+// // document.body.appendChild(img4);
+// // console.log(img4);
+
+
+// var atributosImg3 = {
 //     src : "https://p4.wallpaperbetter.com/wallpaper/135/692/935/sci-fi-astronaut-jellyfish-space-hd-wallpaper-preview.jp",
 //     alt : "Imagen de un astronauta con una medusa"};
 
 // var imgSelecionar = document.getElementsByTagName('img');
-// Object.assign(imgSelecionar.imgID, atributosImg);
+// Object.assign(imgSelecionar.imgID, atributosImg3);
